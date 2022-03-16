@@ -114,6 +114,25 @@ img {
 
 }
 
+.img-container-padded-inside {
+  background-color: $black;
+  margin: 0px;
+  width: 30%;
+  min-height: 15rem;
+  transition: all 0.3s ease-in-out;
+  overflow: hidden;
+  // border: 10px solid white;
+  &:hover {
+    opacity: .6;
+    // border: 0px solid white;
+}
+
+
+.black_bg {
+  background-color: $black;
+}
+
+
 .img_hover {
   display: none;
   opacity: 0;

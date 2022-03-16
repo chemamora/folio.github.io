@@ -1,0 +1,253 @@
+$sm: 48rem;
+$md: 62rem;
+$lg: 75rem;
+
+
+// @import url('https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,600&display=swap');
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
+
+.white {
+  color: $white;
+}
+
+///////////////////////////////////////////////////////// HUGE
+.huge {
+  font-size: 2.6rem;
+  line-height: 125%;
+  font-family: 'Inter', sans-serif; 
+  font-weight: 800;
+  color: $black;
+  overflow-x: hidden;
+  // text-decoration: line-through;
+  // text-decoration-color: $fluor-orange;
+}
+.huge_light {
+  font-size: 3.3rem;
+  line-height: 125%;
+  font-family: 'Inter', sans-serif; 
+  font-weight: 200;
+  color: $black;
+  overflow-x: hidden;
+  // text-decoration: line-through;
+  // text-decoration-color: $fluor-orange;
+}
+.highlight {
+  // background-color: #d6d6d6;
+}
+text_white {
+  color: $white !important;
+}
+
+.morse {
+ font-weight: 900;
+}
+
+
+///////////////////////////////////////////////////////// H1
+h1 {
+  font-size: 4rem;
+  line-height: 125%;
+  font-family: 'Inter', sans-serif; 
+  font-weight: 800;
+  color: $black;
+}
+
+///////////////////////////////////////////////////////// H3
+h3 {
+  font-size: 1.6rem;
+  line-height: 125%;
+  font-family: 'Inter', sans-serif; 
+  font-weight: 400;
+}
+
+///////////////////////////////////////////////////////// H4
+h4 {
+  font-family: 'Inter', sans-serif; 
+  font-weight: 200;
+  font-size: 1.8rem;
+  line-height: 125%;
+  letter-spacing: -0.29px;
+}
+
+///////////////////////////////////////////////////////// H1
+h5 {
+  font-size: 1.4rem;
+  font-family: 'Inter', sans-serif; 
+  font-weight: 800;
+  font-style: normal;
+  font-style: normal;
+  margin: 0px;
+  letter-spacing: -0.017rem;
+  line-height: 48px;
+}
+
+///////////////////////////////////////////////////////// H6
+h6 {
+  font-size: 1.2rem;
+  line-height: 125%;
+  font-family: 'Inter', sans-serif; 
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: .8PX;
+}
+
+
+h7 {
+  font-size: 1rem;
+  line-height: 125%;
+  font-family: 'Inter', sans-serif; 
+  font-weight: 400;
+  color: white;
+}
+
+.hello {
+  font-size: 1.4rem;
+  line-height: 125%;
+  font-family: 'Inter', sans-serif; 
+  font-weight: 500;
+  // text-transform: uppercase;
+  letter-spacing: .8PX;
+}
+
+
+///////////////////////////////////////////////////////// QUOTE
+
+.quote {
+  font-size: 1.4rem;
+  font-family: 'Inter', sans-serif; 
+  font-weight: 600;
+  font-style: normal;
+  font-style: normal;
+  margin: 0px;
+  letter-spacing: -0.0166573em;
+    line-height: 28px;
+}
+
+
+///////////////////////////////////////////////////////// VERTICAL 
+.vertical {
+  transform: rotate(-90deg);
+}
+///////////////////////////////////////////////////////// P
+p {
+  // font-size: 1rem;
+  // line-height: 26PX;
+  // letter-spacing: .8px;
+  // font-family: 'Inter', sans-serif; 
+  // font-weight: 300;
+  font-family: 'Inter', sans-serif; 
+  font-size: 18px;
+  letter-spacing: 0.257412px;
+  line-height: 25px;
+  // margin: 0 auto;
+}
+
+
+
+///////////////////////////////////////////////////////// COLORS
+.orange {
+  color: $fluor-orange;
+}
+
+///////////////////////////////////////////////////////// A
+a {
+  color: black;
+  text-decoration: none;
+}
+
+///////////////////////////////////////////////////////// LIST
+
+li {
+  list-style: disc;
+  // counter-increment: foo;
+  display: table-row;
+}
+
+li::before {
+  content:  "◦";
+  display: table-cell;
+  text-align: right;
+  padding-right: .4em;
+}
+
+///////////////////////////////////////////////////////// CAPTION
+.caption {
+  font-size: .8rem;
+    font-weight: 500;
+}
+
+///////////////////////////////////////////////////////// HR
+hr {
+  height: 0px;
+  color: black;
+}
+
+///////////////////////////////////////////////////////// STRONG
+.strong {
+  font-weight: 600;
+}
+.supahstrong {
+  font-weight: 900;
+}
+
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.tag {
+  font-family: 'Inter', sans-serif; 
+  font-size: 15px;
+  letter-spacing: -0.009em;
+  // line-height: 21px;
+  max-width: fit-content;
+  padding: 1px 8px;
+  margin-left: 4px;
+  // border-radius: 20px;
+  background-color: $black;
+
+}
+
+.digital {
+  // background-color: $fluor-orange;
+  color: $white;
+}
+.print{
+  // background: $bg-yellow;
+  color: $white;
+}
+.branding {
+  // background-color: $green;
+  color: $white;
+}
+.ux {
+  // background-color: $electric_blue;
+  color: $white;
+}
+
+.ui {
+  // background-color: $pink;
+  color: $white;
+}
+
+@media (max-width: 62rem) {
+  h4 {
+    font-size: 1.5rem;
+    line-height: 37px;
+  }
+
+}
+
+@media (max-width: $xs)  {
+  .huge {
+      font-size: 1.6rem;
+  }
+  .huge_light {
+    font-size: 1.6rem;
+    
+  }
+}

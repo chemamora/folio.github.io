@@ -1,0 +1,51 @@
+#project-header {
+    height: 17vh;
+    width: 100%;
+    background-color: $white;
+    // position: relative;
+    z-index: 1;
+    // background-position: top;
+    position: fixed;
+    // background-position: center;
+    // background-repeat: no-repeat;
+    // background-size: cover;
+}
+#project {
+    position: relative;
+    top: 17vh;
+    z-index: 500;
+    background-color: $ltGray;
+    .project-full-width-img {
+        margin: 0px;
+        // border: 5px solid $ltGray;
+    }
+    .project-img-container {
+        margin: 0px;
+        // border: 5px solid $ltGray;
+    }
+    .project-text-container {
+        margin: 0px;
+        border: 5px solid $ltGray;
+    }
+    .center-align {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+
+
+
+.foot_project {
+    position: relative;
+    padding: 4rem 0;
+    // border-top: 1px solid #000;
+    margin-top: 4rem;
+    max-width: 100% !important;
+    background-color: white;
+    // color: white;
+}
+
+

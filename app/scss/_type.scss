@@ -124,6 +124,14 @@ h7 {
   letter-spacing: .8PX;
 }
 
+@media (max-width: $xs)  {
+  .hello {
+   margin-top: -3rem;
+  }
+
+ 
+}
+
 
 ///////////////////////////////////////////////////////// QUOTE
 

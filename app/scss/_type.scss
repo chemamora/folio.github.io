@@ -195,9 +195,17 @@ li::before {
 
 ///////////////////////////////////////////////////////// CAPTION
 .caption {
-  font-size: .8rem;
+  font-size: .2rem;
     font-weight: 500;
     line-height: 10px;
+}
+
+@media (max-width: $xs)  {
+  .caption {
+    font-size: .1rem;
+      font-weight: 500;
+      line-height: 10px;
+  }
 }
 
 ///////////////////////////////////////////////////////// HR
@@ -223,7 +231,7 @@ hr {
 
 .tag {
   font-family: 'Inter', sans-serif; 
-  font-size: 15px;
+  font-size: .6rem;
   letter-spacing: -0.009em;
   // line-height: 21px;
   max-width: fit-content;

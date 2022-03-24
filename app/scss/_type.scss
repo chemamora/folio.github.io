@@ -60,10 +60,18 @@ h1 {
 ///////////////////////////////////////////////////////// H1
 h2 {
   font-size: 2.3rem;
-  line-height: 125%;
+  // line-height: 125%;
   font-family: 'Inter', sans-serif; 
   font-weight: 700;
   color: $black;
+  margin:0;
+}
+@media (max-width: $sm)  {
+  h2 {
+   margin-bottom: 3rem;
+  }
+
+ 
 }
 
 

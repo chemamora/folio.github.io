@@ -203,18 +203,18 @@ li::before {
 
 ///////////////////////////////////////////////////////// CAPTION
 .caption {
-  font-size: .6rem;
-    font-weight: 500;
+  font-size: .7rem;
+    font-weight: 600;
     line-height: 10px;
 }
 
-@media (max-width: $xs)  {
-  .caption {
-    font-size: .6rem;
-      font-weight: 500;
-      line-height: 10px;
-  }
-}
+// @media (max-width: $xs)  {
+//   .caption {
+//     font-size: .6rem;
+//       font-weight: 500;
+//       line-height: 10px;
+//   }
+// }
 
 ///////////////////////////////////////////////////////// HR
 hr {

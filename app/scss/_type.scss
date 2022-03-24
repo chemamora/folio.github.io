@@ -50,7 +50,7 @@ html { font-family: 'Inter', sans-serif; }
 ///////////////////////////////////////////////////////// H1
 h1 {
   font-size: 4rem;
-  line-height: 125%;
+  line-height: 125% !important;
   font-family: 'Inter', sans-serif; 
   font-weight: 800;
   color: $black;
@@ -60,7 +60,7 @@ h1 {
 ///////////////////////////////////////////////////////// H1
 h2 {
   font-size: 2.3rem;
-  // line-height: 125%;
+  line-height: 125%;
   font-family: 'Inter', sans-serif; 
   font-weight: 700;
   color: $black;

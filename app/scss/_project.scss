@@ -16,12 +16,16 @@
     z-index: 500;
     background-color: $ltGray;
     .project-full-width-img {
+        margin: 0px auto;
         margin: 0px;
+        // max-width: 90%;
         // border: 5px solid $ltGray;
     }
     .project-img-container {
-        margin: 0px;
+        // margin:  auto;
         // border: 5px solid $ltGray;
+        width: 100%;
+        margin: 0;
     }
     .project-text-container {
         margin: 0px;

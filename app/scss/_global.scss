@@ -197,6 +197,18 @@
 
 ///////////////////////////////////////////////////////// PADDINGS
 
+.pad_16_top {
+  padding-top: 16rem;
+}
+
+.pad_8_top {
+  padding-top: 8rem;
+}
+
+.pad_6_top {
+  padding-top: 6rem;
+}
+
 .pad_4_top {
   padding-top: 4rem;
 }
@@ -217,6 +229,13 @@
   padding: 4px;
 }
 
+.pad_16_bottom {
+  padding-bottom: 16rem;
+}
+
+.pad_8_bottom {
+  padding-bottom: 8rem;
+}
 .pad_6_bottom {
   padding-bottom: 6rem;
 }
@@ -228,6 +247,7 @@
 .pad_4_bottom {
   padding-bottom: 4rem;
 }
+
 
 
 .margin_6_top {

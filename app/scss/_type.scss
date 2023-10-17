@@ -177,6 +177,10 @@ p {
   line-height: 1.4444444444444;
 }
 
+.centered_text {
+  text-align: center;
+}
+
 
 
 ///////////////////////////////////////////////////////// COLORS
@@ -229,9 +233,12 @@ hr {
 ///////////////////////////////////////////////////////// STRONG
 .strong {
   font-weight: 600;
+  color: $black;
+  
 }
 .supahstrong {
   font-weight: 900;
+  color: $black;
 }
 .grey {
   color: $mdGray;
@@ -239,6 +246,12 @@ hr {
 
 .uppercase {
   text-transform: uppercase;
+}
+
+.bold {
+  font-family: 'Inter', sans-serif; 
+  color: $black;
+  font-weight: bold;
 }
 
 .tag {
@@ -252,6 +265,35 @@ hr {
   // border-radius: 20px;
   background-color: $black;
 
+}
+
+.tag_large {
+  // text-align: center;
+  font-family: 'Inter', sans-serif; 
+  font-size: 1.9rem;
+  letter-spacing: -0.009em;
+  // line-height: 21px;
+  max-width: fit-content;
+  padding: 16px 16px;
+  // margin-left: 4px;
+  // border-radius: 20px;
+  background-color: $black;
+  color: $white;
+}
+
+.tag_large_error {
+  font-family: 'Inter', sans-serif; 
+  font-size: 1.9rem;
+  letter-spacing: -0.009em;
+  max-width: fit-content;
+  padding: .8rem 8rem;
+  background-color: $black;
+  color: $white;
+  margin: 0;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .digital {

@@ -23,6 +23,15 @@ $lg: 75rem;
   
 }
 
+.project-info {
+  @media (max-width: $xs)  {
+    padding-left: 1rem;
+    padding-right: 1rem;
+   
+  }
+  
+}
+
 .grid {
   display: flex;
   flex-direction: column;

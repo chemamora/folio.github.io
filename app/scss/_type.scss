@@ -54,6 +54,10 @@ h1 {
   font-family: 'Inter', sans-serif; 
   font-weight: 800;
   color: $black;
+  @media (max-width: $xs)  {
+   
+    font-size: 2rem;
+  }
 }
 
 
